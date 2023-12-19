@@ -8,4 +8,9 @@ A -> B (A dependes-on B : B가 변경될때 A도 함께 변경됨)
 1. 연관관계(Association)
 2. 의존관계(Dependency) : 일시적으로 관계를 맺는것
 3. 상속관계(Ingeritance) : B가 변경될 때 A도 함께 변경되는 것 (구현이 바뀌면 영향받음)
-4. 실체화관계(Realization) : implement 인터페이스의 오퍼레이션 시그니처가 변경되는것 
+4. 실체화관계(Realization) : implement 인터페이스의 오퍼레이션 시그니처가 변경되는것
+
+## 패키지 의존성
+1. 패키지에 포함된 클래스 사이의 의존성
+
+
