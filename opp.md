@@ -26,4 +26,9 @@
   - 객체 참조로 인한 결합도 상승
   - 패키지 의존성 사이클
 
+## 레이어 아키텍처
+1. Presentation
+2. Damain
+3. Data Source
+
 
