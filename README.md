@@ -4,5 +4,6 @@ springboot with toby
    - [Spring MVC 동작원리](toby1_1.md)
    - [블록체인](blockChain.md)
    - [의존성을 이용해 설계하기](opp.md)
+   - [제어의 역전(IoC)](toby1_4.md)
   
 
