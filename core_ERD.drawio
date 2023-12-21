@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T22:09:10.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7S4KZljxKA2cnDYlMpP0" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-21T22:12:55.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="m_y_zLNSYXcJWz517ijD" version="22.1.11" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2044" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1145,7 +1145,7 @@
           <mxGeometry x="1331" y="480" width="253" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-142" value="고객업무" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="865" width="320" height="140" as="geometry" />
+          <mxGeometry x="-60" y="930" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-143" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-142">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1202,7 +1202,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-183" value="고객업무" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="321.5" y="865" width="250" height="140" as="geometry" />
+          <mxGeometry x="321.5" y="930" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-184" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-183">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -1349,10 +1349,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-294" value="고객업무테이블에서 B업무는 취소상태이고,&lt;br&gt;A업무가 접수된상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="865" width="230" height="60" as="geometry" />
+          <mxGeometry x="-300" y="930" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-295" value="고객업무테이블에서 고객업무가 완료되면&lt;br&gt;A업무의 업무상태가&lt;br&gt;접수에서 완료상태로 변경된다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="580" y="865" width="230" height="60" as="geometry" />
+          <mxGeometry x="580" y="930" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-296" value="업무담당자테이블에 담당자사번이 1번인 &lt;br&gt;담당자 라이언이 배정받은 상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="-300" y="1300" width="280" height="40" as="geometry" />
@@ -1668,6 +1668,12 @@
         <mxCell id="tAcxnsOckM2g3gc89ErM-363" value="대리" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-355">
           <mxGeometry x="670" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAcxnsOckM2g3gc89ErM-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;exitX=0.533;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.533;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAcxnsOckM2g3gc89ErM-355" target="tAcxnsOckM2g3gc89ErM-298">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1270" as="sourcePoint" />
+            <mxPoint x="582" y="1229.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
