@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T18:22:58.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="94UxxckPvbxDzwAzSAiX" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-21T18:27:57.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HySOyZxRQbpu-xmvw_ba" version="22.1.11" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2044" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -779,7 +779,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-9" value="업무담당자" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="734" y="300" width="250" height="150" as="geometry" />
+          <mxGeometry x="734" y="300" width="250" height="190" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-10" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-9">
           <mxGeometry y="30" width="250" height="50" as="geometry" />
@@ -808,16 +808,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-16" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-9">
-          <mxGeometry y="100" width="250" height="50" as="geometry" />
+          <mxGeometry y="100" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-17" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-16">
-          <mxGeometry width="60" height="50" as="geometry">
-            <mxRectangle width="60" height="50" as="alternateBounds" />
+          <mxGeometry width="60" height="90" as="geometry">
+            <mxRectangle width="60" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-18" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-16">
-          <mxGeometry x="60" width="190" height="50" as="geometry">
-            <mxRectangle width="190" height="50" as="alternateBounds" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-18" value="&#xa;&#xa;&#xa; 담당자처리상태 char(50)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-16">
+          <mxGeometry x="60" width="190" height="90" as="geometry">
+            <mxRectangle width="190" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-26" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="tAcxnsOckM2g3gc89ErM-67" target="tAcxnsOckM2g3gc89ErM-63">
@@ -827,7 +827,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-40" value="담당자이관이력" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="727" y="500" width="250" height="270" as="geometry" />
+          <mxGeometry x="730" y="540" width="250" height="270" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-41" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-40">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -1101,7 +1101,7 @@
         <mxCell id="tAcxnsOckM2g3gc89ErM-125" value="파일업무관계테이블은 고객업무에서 필요한 파일을관리하는 테이블이다.&lt;br&gt;고객업무테이블에서 업무코드를 참조하여&amp;nbsp;&lt;br&gt;파일식별번호로 파일테이블을 관리할 수 있다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="140" y="40" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-127" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tAcxnsOckM2g3gc89ErM-9">
+        <mxCell id="tAcxnsOckM2g3gc89ErM-127" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.497;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tAcxnsOckM2g3gc89ErM-70" target="tAcxnsOckM2g3gc89ErM-9">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="840" y="230" as="sourcePoint" />
             <mxPoint x="827" y="300" as="targetPoint" />
@@ -1131,8 +1131,8 @@
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-135" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0.514;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="859" y="500" as="sourcePoint" />
-            <mxPoint x="858.5" y="450" as="targetPoint" />
+            <mxPoint x="862" y="540" as="sourcePoint" />
+            <mxPoint x="861.5" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-136" value="&#xa;담당자등록일자 date &#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
@@ -1145,11 +1145,11 @@
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-138" value="업무담당자테이블은 각 업무를 담당하는 담당자이력을 확인할 수 있다.&lt;br&gt;업무를 담당하는 업무담당자는 여러명이 될 수 있다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="477" y="390" width="253" height="60" as="geometry" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-138" value="업무담당자테이블은 각 업무를 담당하는 담당자이력을 확인할 수 있다.&lt;br&gt;업무를 담당하는 업무담당자는 여러명이 될 수 있다.&lt;br&gt;담당자처리상태는 배정, 접수, 검토중, 처리완료, 처리불가완료, 이관으로 이뤄진다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="477" y="410" width="253" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-139" value="담당자이관이력테이블은 담당자 이관이력을 확인할 수 있다.&lt;br&gt;마지막 필드인 역할은 대무자와 이관자로 나뉘어 대무자도 확인할 수 있다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="470" y="710" width="253" height="60" as="geometry" />
+          <mxGeometry x="473" y="750" width="253" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-140" value="담당자테이블은&lt;br&gt;모든 담당자를 관리하는 테이블이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="1034" y="450" width="253" height="60" as="geometry" />
