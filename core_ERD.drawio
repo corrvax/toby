@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T19:25:38.961Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YK1trrXFPCr-hhY1Ap1M" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-21T19:26:07.087Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OZXhmBKQupxCs6hfaLdA" version="22.1.11" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2044" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1158,7 +1158,7 @@
           <mxGeometry x="1331" y="480" width="253" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-142" value="고객업무" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="120" y="850" width="250" height="140" as="geometry" />
+          <mxGeometry x="10" y="865" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-143" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-142">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -1215,7 +1215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-183" value="고객업무" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="431.5" y="850" width="250" height="140" as="geometry" />
+          <mxGeometry x="321.5" y="865" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-184" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-183">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -1275,7 +1275,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-197" value="담당자이관이력" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="772.5" y="870" width="546.5" height="130" as="geometry" />
+          <mxGeometry x="710" y="880" width="546.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-198" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-197">
           <mxGeometry y="30" width="546.5" height="20" as="geometry" />
@@ -1377,7 +1377,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-210" value="담당자이관이력" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1284" y="870" width="250" height="139.99999999999955" as="geometry" />
+          <mxGeometry x="1334" y="870" width="250" height="139.99999999999955" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-211" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-210">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
