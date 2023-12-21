@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T13:49:25.677Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wWnG-rbPM0WPJ_KEDzqH" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T13:52:51.270Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5w7ymRxrLyc42L_nIVX2" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1592" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="업무" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="581.25" y="208" width="160" height="242" as="geometry">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="비대면업무" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="631.25" y="208" width="160" height="242" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -190,7 +190,7 @@
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-33" value="&lt;b&gt;담당자확인메소드&lt;/b&gt;를 통해 담당자 적합성을 판단한다.&lt;br&gt;1. 직급확인(대리이상)&lt;br&gt;2. 대무자 및 이관자 존재유무 확인&lt;br&gt;3. 이관자 존재 시 이관자이력을 통해 최근 이관자 확인&lt;br&gt;이때 이관자이력과 대무자가 확인되면 &lt;br&gt;클래스관계가 마무리된다.(Dependency)&lt;br&gt;&lt;b&gt;담당자 배정메소드&lt;/b&gt;를 통해 담당자를 결정한다.&lt;br&gt;그리디 알고리즘을 통해 &lt;br&gt;배정받은 업무수가 적은 담당자를 우선으로 배정한다." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="799" y="496" width="280" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fTCJYqOAzkWOMCg7mj_o-34" value="&lt;&lt;interface&gt;&gt;&#xa;비대면업무" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="fTCJYqOAzkWOMCg7mj_o-34" value="&lt;&lt;interface&gt;&gt;&#xa;업무" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="327.25" y="216" width="145" height="130" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -198,14 +198,14 @@
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-38" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fTCJYqOAzkWOMCg7mj_o-34">
           <mxGeometry y="40" width="145" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="fTCJYqOAzkWOMCg7mj_o-39" value="거래중지 계좌해제&#xa;&#xa;계좌 비밀번호 변경&#xa; &#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fTCJYqOAzkWOMCg7mj_o-34">
+        <mxCell id="fTCJYqOAzkWOMCg7mj_o-39" value="업무 접수&#xa;&#xa;업무완료&#xa;&#xa;업무취소" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fTCJYqOAzkWOMCg7mj_o-34">
           <mxGeometry y="48" width="145" height="82" as="geometry" />
         </mxCell>
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--24" target="fTCJYqOAzkWOMCg7mj_o-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fTCJYqOAzkWOMCg7mj_o-41" value="비대면업무 사용" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="232.25" y="254" width="100" height="30" as="geometry" />
+        <mxCell id="fTCJYqOAzkWOMCg7mj_o-41" value="업무 사용" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="247.25" y="254" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.99;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--2" target="fTCJYqOAzkWOMCg7mj_o-39">
           <mxGeometry relative="1" as="geometry">
@@ -225,7 +225,7 @@
           <mxGeometry x="466.25" y="271" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-49" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="551.25" y="270" width="30" height="30" as="geometry" />
+          <mxGeometry x="601.25" y="270" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-51" value="&lt;&lt;interface&gt;&gt;&#xa;파일업로드" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="52.75" y="511" width="152.5" height="152" as="geometry">
@@ -339,10 +339,10 @@
           <mxGeometry x="207" y="505" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-101" value="고객이 비대면업무호출 시 각 업무가 처리되는 클래스이다.&lt;br&gt;&lt;b&gt;업무코드채번메소드&lt;/b&gt;는&amp;nbsp;&lt;br&gt;업무코드를 채번한다.&lt;br&gt;&lt;b&gt;업무조회메소드&lt;/b&gt;는&lt;br&gt;업무코드, 업무배정일 및 각 업무상태를 조회한다.&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;업무등록메소드&lt;/b&gt;는&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;업무코드, 업무배정일,업무상태를 등록한다.&lt;br&gt;&lt;b&gt;업무상태변경메소드&lt;/b&gt;는&lt;br&gt;업무상태를 접수,완료,취소 등의 상태로 변경한다.&lt;br&gt;&lt;b&gt;비대면업무메소드&lt;/b&gt;는&lt;br&gt;미실명고객 거래 제한 해제, 거래 중지 계좌 해제 등&lt;br&gt;비대면 업무 프로세스가 호출된다." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="748.25" y="212" width="300" height="190" as="geometry" />
+          <mxGeometry x="798.25" y="212" width="300" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="fTCJYqOAzkWOMCg7mj_o-104" value="업무클래스에서 구현" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="466.25" y="245" width="120" height="30" as="geometry" />
+        <mxCell id="fTCJYqOAzkWOMCg7mj_o-104" value="비대면업무클래스에서 구현" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="474.25" y="245" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fTCJYqOAzkWOMCg7mj_o-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--5">
           <mxGeometry relative="1" as="geometry">
