@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T19:47:38.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5Wr__dsaabPUZJJL4BvG" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-21T19:49:23.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8Sn-cpr4sStY3iRWQWkL" version="22.1.11" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2044" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -830,29 +830,29 @@
           <mxGeometry x="730" y="540" width="250" height="240" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-41" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-40">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+          <mxGeometry y="30" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-42" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-41">
-          <mxGeometry width="50" height="30" as="geometry">
-            <mxRectangle width="50" height="30" as="alternateBounds" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-42" value="PK&#xa;&#xa;PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-41">
+          <mxGeometry width="50" height="50" as="geometry">
+            <mxRectangle width="50" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-43" value="사번 int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-41">
-          <mxGeometry x="50" width="200" height="30" as="geometry">
-            <mxRectangle width="200" height="30" as="alternateBounds" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-43" value="사번 int NOT NULL &#xa;&#xa;역할 char(50)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-41">
+          <mxGeometry x="50" width="200" height="50" as="geometry">
+            <mxRectangle width="200" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-44" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-40">
-          <mxGeometry y="60" width="250" height="170" as="geometry" />
+          <mxGeometry y="80" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-45" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-44">
-          <mxGeometry width="50" height="170" as="geometry">
-            <mxRectangle width="50" height="170" as="alternateBounds" />
+          <mxGeometry width="50" height="160" as="geometry">
+            <mxRectangle width="50" height="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-46" value="&#xa;역할 char(50)&#xa;&#xa;최초 이관자사번 int&#xa;&#xa;최근 이관자사번 int&#xa;&#xa;이관자명 char(50) &#xa;&#xa;이관일자 date&#xa;&#xa;직급 char(50)&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-44">
-          <mxGeometry x="50" width="200" height="170" as="geometry">
-            <mxRectangle width="200" height="170" as="alternateBounds" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-46" value="최초 이관자사번 int&#xa;&#xa;최근 이관자사번 int&#xa;&#xa;이관자명 char(50) &#xa;&#xa;이관일자 date&#xa;&#xa;직급 char(50)&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-44">
+          <mxGeometry x="50" width="200" height="160" as="geometry">
+            <mxRectangle width="200" height="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-59" value="파일업무관계" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
@@ -1305,12 +1305,12 @@
         <mxCell id="tAcxnsOckM2g3gc89ErM-202" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-197">
           <mxGeometry y="50" width="619.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-283" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-202">
+        <mxCell id="tAcxnsOckM2g3gc89ErM-283" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-202">
           <mxGeometry width="73" height="40" as="geometry">
             <mxRectangle width="73" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-280" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-202">
+        <mxCell id="tAcxnsOckM2g3gc89ErM-280" value="이관자" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-202">
           <mxGeometry x="73" width="73" height="40" as="geometry">
             <mxRectangle width="73" height="40" as="alternateBounds" />
           </mxGeometry>
