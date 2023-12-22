@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T08:50:58.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ceoO2pwo2hVyijVj_2VK" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-22T09:00:32.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PlERiIHX8SArOqL_1z6N" version="22.1.11" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2044" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1378,20 +1378,20 @@
             <mxRectangle width="90" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-294" value="고객업무테이블에서 홍길동고객의 B업무는 취소상태이고,&lt;br&gt;김춘향고객의&amp;nbsp; A업무가 접수된상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="tAcxnsOckM2g3gc89ErM-294" value="b. 고객업무테이블에서 홍길동고객의 B업무는 취소상태이고,&lt;br&gt;김춘향고객의&amp;nbsp; A업무가 접수된상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="-300" y="1320" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-295" value="고객업무테이블에서 고객업무가 완료되면&lt;br&gt;고객식별코드 AA123 즉, 김춘향고객의 업무상태가&lt;br&gt;접수에서 완료상태로 변경된다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="tAcxnsOckM2g3gc89ErM-295" value=". 고객업무테이블에서 고객업무가 완료되면&lt;br&gt;고객식별코드 AA123 즉, 김춘향고객의 업무상태가&lt;br&gt;접수에서 완료상태로 변경된다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="590" y="1169" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-296" value="업무담당자테이블에 담당자사번이 1번인 &lt;br&gt;담당자 라이언이 배정받은 상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="1580" width="280" height="40" as="geometry" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-296" value="b. 고객업무가 접수되면 업무담당자가 정해진다.&lt;br&gt;즉, 업무담당자테이블에 담당자사번이 1번인 &lt;br&gt;담당자 라이언이 배정받은 상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1570" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-297" value="담당자이관이력테이블에 담당자사번이 1번인 담당자 라이언에 대한 이관자 김춘식과 대무자 어피치가 등록된 상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1960" width="320" height="40" as="geometry" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-297" value="c. 담당자이관이력테이블에 담당자사번이 1번인 담당자 라이언에 대한 이관자 김춘식과 대무자 어피치가 등록된 상태이다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1760" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-298" value="담당자이관이력" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="180.25" y="2040" width="729.5" height="169.99999999999955" as="geometry" />
+          <mxGeometry x="180.25" y="1840" width="729.5" height="169.99999999999955" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-299" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-298">
           <mxGeometry y="30" width="729.5" height="20" as="geometry" />
@@ -1565,11 +1565,11 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-326" value="담당자이관이력테이블에 담당자사번이 1번인 담당자 라이언에 대한 이관자 김춘식에서 이관자 단무지로 변경되었다.&amp;nbsp;&lt;br&gt;이때 최초이관자사번은 최초 이관자인 김춘식의 사번 2번이 등록되고, &lt;br&gt;최근이관자사번에는 최근이관자인 단무지의 사번인 4번이 등록된다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="2220" width="560" height="40" as="geometry" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-326" value="&amp;nbsp;d. 담당자이관이력테이블에 담당자사번이 1번인 담당자 라이언에 대한 이관자 김춘식에서 이관자 단무지로 변경되었다.&amp;nbsp;&lt;br&gt;이때 최초이관자사번은 최초 이관자인 김춘식의 사번 2번이 등록되고, &lt;br&gt;최근이관자사번에는 최근이관자인 단무지의 사번인 4번이 등록된다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2020" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-336" value="담당자이관이력" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="180.25" y="1820" width="729.5" height="129.99999999999955" as="geometry" />
+          <mxGeometry x="180.25" y="1620" width="729.5" height="129.99999999999955" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-337" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-336">
           <mxGeometry y="30" width="729.5" height="20" as="geometry" />
@@ -1702,8 +1702,8 @@
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;exitX=0.533;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.533;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAcxnsOckM2g3gc89ErM-355" target="tAcxnsOckM2g3gc89ErM-298">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="1960" as="sourcePoint" />
-            <mxPoint x="572" y="1919.5" as="targetPoint" />
+            <mxPoint x="570" y="1760" as="sourcePoint" />
+            <mxPoint x="572" y="1719.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-375" value="담당자" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
@@ -1949,8 +1949,8 @@
             <mxPoint x="210" y="1353" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-438" value="업무담당자가 라이언으로 배정되었을 때 담당자테이블에&amp;nbsp;" style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1553" width="320" height="40" as="geometry" />
+        <mxCell id="tAcxnsOckM2g3gc89ErM-438" value="b. 업무담당자가 라이언으로 배정되었을 때 담당자테이블에 적재되어&lt;br&gt;담당자 테이블에서 담당자 이력을 확인할 수 있다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1530" width="320" height="47" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-439" value="고객" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-300" y="960" width="490" height="139.99999999999955" as="geometry" />
@@ -2009,7 +2009,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-462" value="고객테이블에 김춘향과 홍길동 고객에관한 데이터가 저장되어있다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="tAcxnsOckM2g3gc89ErM-462" value="a. 고객테이블에 김춘향과 홍길동 고객에관한 데이터가 저장되어있다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="-300" y="910" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-476" value="업무" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
@@ -2058,7 +2058,7 @@
           <mxGeometry x="1170" y="1169" width="270" height="41" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-490" value="파일업무관계" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="1170" width="330" height="150" as="geometry" />
+          <mxGeometry x="-680" y="1170" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-491" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-490">
           <mxGeometry y="30" width="330" height="40" as="geometry" />
@@ -2092,24 +2092,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-517" value="NULL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-495">
-          <mxGeometry x="190" width="140" height="40" as="geometry">
-            <mxRectangle width="140" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-499" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-490">
-          <mxGeometry y="110" width="330" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-500" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-499">
-          <mxGeometry width="110" height="40" as="geometry">
-            <mxRectangle width="110" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-501" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-499">
-          <mxGeometry x="110" width="80" height="40" as="geometry">
-            <mxRectangle width="80" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-518" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-499">
           <mxGeometry x="190" width="140" height="40" as="geometry">
             <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -2175,7 +2157,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-532" value="파일업무관계" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="1360" width="330" height="150" as="geometry" />
+          <mxGeometry x="-680" y="1360" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-533" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-532">
           <mxGeometry y="30" width="330" height="40" as="geometry" />
@@ -2213,31 +2195,13 @@
             <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-541" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-532">
-          <mxGeometry y="110" width="330" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-542" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-541">
-          <mxGeometry width="110" height="40" as="geometry">
-            <mxRectangle width="110" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-543" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-541">
-          <mxGeometry x="110" width="80" height="40" as="geometry">
-            <mxRectangle width="80" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-544" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="tAcxnsOckM2g3gc89ErM-541">
-          <mxGeometry x="190" width="140" height="40" as="geometry">
-            <mxRectangle width="140" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-547" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.497;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tAcxnsOckM2g3gc89ErM-512" target="tAcxnsOckM2g3gc89ErM-519">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-620" y="1230" as="sourcePoint" />
             <mxPoint x="-570" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAcxnsOckM2g3gc89ErM-548" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.497;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="tAcxnsOckM2g3gc89ErM-548" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.487;exitY=1.064;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tAcxnsOckM2g3gc89ErM-495">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-520" y="1319" as="sourcePoint" />
             <mxPoint x="-520" y="1359" as="targetPoint" />
@@ -2316,6 +2280,9 @@
         </mxCell>
         <mxCell id="tAcxnsOckM2g3gc89ErM-552" value="4. 파일이 업로드되면 파일서버에서 받은 파일업로드식별키가 적재된다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="-680" y="1525" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcxnsOckM2g3gc89ErM-553" value="c. 하단 담당자이관이력에서 김춘식으로 이관되어 담당자테이블에&lt;br&gt;김춘식이 담당자로 변경된 이력이 쌓인다." style="shape=note;size=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="553" y="1560" width="320" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
